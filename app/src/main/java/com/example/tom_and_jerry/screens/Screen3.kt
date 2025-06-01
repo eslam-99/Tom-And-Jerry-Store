@@ -118,7 +118,7 @@ fun Screen3() {
                         Column(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .padding(horizontal = 10.dp),
+                                .padding(horizontal = 8.dp),
                             verticalArrangement = Arrangement.Center
                         ) {
                             Text(
@@ -179,7 +179,7 @@ fun Screen3() {
                         Column(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .padding(horizontal = 10.dp),
+                                .padding(horizontal = 8.dp),
                             verticalArrangement = Arrangement.Center
                         ) {
                             Text(
@@ -247,7 +247,7 @@ fun Screen3() {
                         Column(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .padding(horizontal = 10.dp),
+                                .padding(horizontal = 8.dp),
                             verticalArrangement = Arrangement.Center
                         ) {
                             Text(
@@ -308,7 +308,7 @@ fun Screen3() {
                         Column(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .padding(horizontal = 10.dp),
+                                .padding(horizontal = 8.dp),
                             verticalArrangement = Arrangement.Center
                         ) {
                             Text(
@@ -580,7 +580,8 @@ fun Screen3() {
                     fontFamily = IBMPlexSansArabic,
                     fontWeight = FontWeight.Medium,
                     fontSize = 10.sp,
-                    lineHeight = 10.sp,
+                    lineHeight = 8.sp,
+                    maxLines = 1,
                     color = TextWhiteColor,
                 )
             }
