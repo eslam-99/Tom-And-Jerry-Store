@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.tom_and_jerry.screens.Screen1
+import com.example.tom_and_jerry.screens.Screen2
 import com.example.tom_and_jerry.ui.theme.TomAndJerryStoreTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
                         .windowInsetsPadding(WindowInsets.statusBars)
                         .windowInsetsPadding(WindowInsets.navigationBars),
                 ) {
-                    Screen1()
+                    Screen2()
                 }
             }
         }

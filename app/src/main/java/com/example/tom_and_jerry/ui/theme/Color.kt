@@ -12,6 +12,8 @@ val Pink40 = Color(0xFF7D5260)
 val PrimaryColor = Color(0xFF03578A)
 val SecondaryColor = Color(0xFFD0E5F0)
 
+val DefaultButtonColor = Color(0xFF226993)
+
 val BackgroundWhite = Color(0xFFEEF4F6)
 val LightBlue = Color(0xFFE9F6FB)
 val BorderGrey = Color(0xFF1F1F1E)
