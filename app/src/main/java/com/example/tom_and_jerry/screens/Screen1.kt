@@ -354,14 +354,13 @@ fun Screen1() {
                         Row(
                             modifier = Modifier.height(30.dp),
                         ) {
-                            Button(
-                                onClick = { },
+                            Row(
                                 modifier = Modifier
                                     .weight(1f)
-                                    .height(30.dp),
-                                colors = ButtonDefaults.buttonColors(containerColor = LightBlue),
-                                contentPadding = PaddingValues(vertical = 7.dp, horizontal = 10.dp),
-                                shape = RoundedCornerShape(8.dp),
+                                    .height(30.dp)
+                                    .clip(RoundedCornerShape(8.dp))
+                                    .background(color = LightBlue)
+                                    .padding(vertical = 7.dp, horizontal = 10.dp)
                             ) {
                                 Image(
                                     painter = painterResource(id = R.drawable.money_bag),
