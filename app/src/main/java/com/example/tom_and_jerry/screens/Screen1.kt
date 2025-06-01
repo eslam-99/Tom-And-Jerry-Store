@@ -69,7 +69,7 @@ fun Screen1() {
             .fillMaxSize()
             .background(color = BackgroundWhite)
             .padding(horizontal = 16.dp)
-            .padding(top = 16.dp)
+            .padding(top = 6.dp)
     ) {
         Row(
             modifier = Modifier
@@ -110,13 +110,17 @@ fun Screen1() {
                         content = {
                             Text(
                                 text = "3",
+                                fontFamily = IBMPlexSansArabic,
                                 color = Color.White,
-                                fontSize = 12.sp,
+                                fontSize = 10.sp,
+                                lineHeight = 13.sp,
+                                letterSpacing = 0.sp,
                                 fontWeight = FontWeight.Medium,
                                 textAlign = TextAlign.Center
                             )
                         },
                         containerColor = PrimaryColor,
+                        modifier = Modifier.size(14.dp).padding(0.dp)
                     )
                 }
             ) {
@@ -300,11 +304,11 @@ fun Screen1() {
                 )
             }
         }
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(16.dp))
         LazyVerticalGrid(
             columns = GridCells.Fixed(2),
             contentPadding = PaddingValues(bottom = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             items(tomItemsList.size) { index ->
@@ -438,7 +442,7 @@ fun Screen1() {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(widthDp = 360, heightDp = 772)
 @Composable
 fun Screen1Preview() {
     Screen1()
