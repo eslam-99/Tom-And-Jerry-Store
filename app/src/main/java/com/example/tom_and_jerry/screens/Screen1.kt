@@ -344,6 +344,7 @@ fun Screen1() {
                             fontFamily = IBMPlexSansArabic,
                             fontWeight = FontWeight.Normal,
                             fontSize = 12.sp,
+                            lineHeight = 16.sp,
                             color = TextSecondaryColor,
                             textAlign = TextAlign.Center,
                             overflow = TextOverflow.Ellipsis,
@@ -360,7 +361,8 @@ fun Screen1() {
                                     .height(30.dp)
                                     .clip(RoundedCornerShape(8.dp))
                                     .background(color = LightBlue)
-                                    .padding(vertical = 7.dp, horizontal = 10.dp)
+                                    .padding(vertical = 7.dp, horizontal = 10.dp),
+                                horizontalArrangement = Arrangement.Center
                             ) {
                                 Image(
                                     painter = painterResource(id = R.drawable.money_bag),
@@ -458,7 +460,7 @@ val tomItemsList = listOf(
     TomItemModel(
         imageId = R.drawable.tom_item_2,
         title = "Tom the lover",
-        description = "He loves one-sidedly... and is beaten by the other side and is beaten by the other side and is beaten by the other side.",
+        description = "He loves one-sidedly... and is beaten by the other side.",
         price = 5,
         salePrice = 0,
     ),
