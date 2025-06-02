@@ -260,6 +260,7 @@ fun Screen1() {
                         fontFamily = IBMPlexSansArabic,
                         fontWeight = FontWeight.Normal,
                         fontSize = 12.sp,
+                        lineHeight = 16.sp,
                         color = TextWhiteColor.copy(alpha = 0.8f),
                         modifier = Modifier.weight(1f),
                     )

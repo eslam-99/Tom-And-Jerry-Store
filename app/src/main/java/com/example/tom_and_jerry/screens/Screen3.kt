@@ -1,6 +1,5 @@
 package com.example.tom_and_jerry.screens
 
-import android.health.connect.datatypes.units.Percentage
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
